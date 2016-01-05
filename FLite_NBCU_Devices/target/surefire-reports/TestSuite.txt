@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 912.289 sec <<< FAILURE!
+testNBC(com.mop.qa.test.bvt.Test_Schedule_Assesment)  Time elapsed: 104.001 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception on clicking webelementClick Loginorg.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@1978d10
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'PC143191', ip: '10.242.193.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\489163.CTS\AppData\Local\Temp\scoped_dir13532_4797}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 767a35f292108ba2724e2bc7dd46d9cb
+	at com.mop.qa.Utilities.ReportGenerator.logException(ReportGenerator.java:233)
+	at com.mop.qa.testbase.PageBase_Appium.click(PageBase_Appium.java:321)
+	at com.mop.qa.pageobject.Schedule_Assesment.clickLogin(Schedule_Assesment.java:131)
+	at com.mop.qa.pageobject.Schedule_Assesment.login(Schedule_Assesment.java:147)
+	at com.mop.qa.test.bvt.Test_Schedule_Assesment.testNBC(Test_Schedule_Assesment.java:19)
+testNBC(com.mop.qa.test.bvt.Test_Schedule_Assesment)  Time elapsed: 99.247 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception on clicking webelementClick Loginorg.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@604b81
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'PC143191', ip: '10.242.193.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\489163.CTS\AppData\Local\Temp\scoped_dir13532_4797}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 767a35f292108ba2724e2bc7dd46d9cb
+	at com.mop.qa.Utilities.ReportGenerator.logException(ReportGenerator.java:233)
+	at com.mop.qa.testbase.PageBase_Appium.click(PageBase_Appium.java:321)
+	at com.mop.qa.pageobject.Schedule_Assesment.clickLogin(Schedule_Assesment.java:131)
+	at com.mop.qa.pageobject.Schedule_Assesment.login(Schedule_Assesment.java:147)
+	at com.mop.qa.test.bvt.Test_Schedule_Assesment.testNBC(Test_Schedule_Assesment.java:19)
+testNBC(com.mop.qa.test.bvt.Test_Schedule_Assesment)  Time elapsed: 99.48 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception on clicking webelementClick Loginorg.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@139e7aa
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'PC143191', ip: '10.242.193.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\489163.CTS\AppData\Local\Temp\scoped_dir13532_4797}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 767a35f292108ba2724e2bc7dd46d9cb
+	at com.mop.qa.Utilities.ReportGenerator.logException(ReportGenerator.java:233)
+	at com.mop.qa.testbase.PageBase_Appium.click(PageBase_Appium.java:321)
+	at com.mop.qa.pageobject.Schedule_Assesment.clickLogin(Schedule_Assesment.java:131)
+	at com.mop.qa.pageobject.Schedule_Assesment.login(Schedule_Assesment.java:147)
+	at com.mop.qa.test.bvt.Test_Schedule_Assesment.testNBC(Test_Schedule_Assesment.java:19)
+testNBC(com.mop.qa.test.bvt.Test_Schedule_Assesment)  Time elapsed: 99.388 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception on clicking webelementClick Loginorg.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@856961
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'PC143191', ip: '10.242.193.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\489163.CTS\AppData\Local\Temp\scoped_dir13532_4797}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 767a35f292108ba2724e2bc7dd46d9cb
+	at com.mop.qa.Utilities.ReportGenerator.logException(ReportGenerator.java:233)
+	at com.mop.qa.testbase.PageBase_Appium.click(PageBase_Appium.java:321)
+	at com.mop.qa.pageobject.Schedule_Assesment.clickLogin(Schedule_Assesment.java:131)
+	at com.mop.qa.pageobject.Schedule_Assesment.login(Schedule_Assesment.java:147)
+	at com.mop.qa.test.bvt.Test_Schedule_Assesment.testNBC(Test_Schedule_Assesment.java:19)
+testNBC(com.mop.qa.test.bvt.Test_Schedule_Assesment)  Time elapsed: 104.625 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception on clicking webelementClick Loginorg.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@ee6f53
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'PC143191', ip: '10.242.193.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\489163.CTS\AppData\Local\Temp\scoped_dir13456_19156}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9c4235c034bae7456314c2bd51f87e02
+	at com.mop.qa.Utilities.ReportGenerator.logException(ReportGenerator.java:233)
+	at com.mop.qa.testbase.PageBase_Appium.click(PageBase_Appium.java:321)
+	at com.mop.qa.pageobject.Schedule_Assesment.clickLogin(Schedule_Assesment.java:131)
+	at com.mop.qa.pageobject.Schedule_Assesment.login(Schedule_Assesment.java:147)
+	at com.mop.qa.test.bvt.Test_Schedule_Assesment.testNBC(Test_Schedule_Assesment.java:19)
+testNBC(com.mop.qa.test.bvt.Test_Schedule_Assesment)  Time elapsed: 99.514 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception on clicking webelementClick Loginorg.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@117566b
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'PC143191', ip: '10.242.193.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\489163.CTS\AppData\Local\Temp\scoped_dir13456_19156}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9c4235c034bae7456314c2bd51f87e02
+	at com.mop.qa.Utilities.ReportGenerator.logException(ReportGenerator.java:233)
+	at com.mop.qa.testbase.PageBase_Appium.click(PageBase_Appium.java:321)
+	at com.mop.qa.pageobject.Schedule_Assesment.clickLogin(Schedule_Assesment.java:131)
+	at com.mop.qa.pageobject.Schedule_Assesment.login(Schedule_Assesment.java:147)
+	at com.mop.qa.test.bvt.Test_Schedule_Assesment.testNBC(Test_Schedule_Assesment.java:19)
+testNBC(com.mop.qa.test.bvt.Test_Schedule_Assesment)  Time elapsed: 99.348 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception on clicking webelementClick Loginorg.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@1454b9d
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'PC143191', ip: '10.242.193.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\489163.CTS\AppData\Local\Temp\scoped_dir13456_19156}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9c4235c034bae7456314c2bd51f87e02
+	at com.mop.qa.Utilities.ReportGenerator.logException(ReportGenerator.java:233)
+	at com.mop.qa.testbase.PageBase_Appium.click(PageBase_Appium.java:321)
+	at com.mop.qa.pageobject.Schedule_Assesment.clickLogin(Schedule_Assesment.java:131)
+	at com.mop.qa.pageobject.Schedule_Assesment.login(Schedule_Assesment.java:147)
+	at com.mop.qa.test.bvt.Test_Schedule_Assesment.testNBC(Test_Schedule_Assesment.java:19)
+testNBC(com.mop.qa.test.bvt.Test_Schedule_Assesment)  Time elapsed: 99.207 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception on clicking webelementClick Loginorg.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@1b14724
+Build info: version: '2.47.0', revision: '0e4837e94b1fad0db93e88cd972ed3e235a22892', time: '2015-07-29 15:58:41'
+System info: host: 'PC143191', ip: '10.242.193.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\489163.CTS\AppData\Local\Temp\scoped_dir13456_19156}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=46.0.2490.71, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9c4235c034bae7456314c2bd51f87e02
+	at com.mop.qa.Utilities.ReportGenerator.logException(ReportGenerator.java:233)
+	at com.mop.qa.testbase.PageBase_Appium.click(PageBase_Appium.java:321)
+	at com.mop.qa.pageobject.Schedule_Assesment.clickLogin(Schedule_Assesment.java:131)
+	at com.mop.qa.pageobject.Schedule_Assesment.login(Schedule_Assesment.java:147)
+	at com.mop.qa.test.bvt.Test_Schedule_Assesment.testNBC(Test_Schedule_Assesment.java:19)

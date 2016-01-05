@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Canvas 1]">
+  <listeners>
+    <listener class-name="com.mop.qa.test.bvt.TestSuite"/>
+  </listeners>
+  <test name="Test2(failed)">
+    <classes>
+      <class name="com.mop.qa.test.bvt.Test_TakeAssesment">
+        <methods>
+          <include name="setUp"/>
+          <include name="startTestReport"/>
+          <include name="testNBC"/>
+          <include name="executeSuite"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.Test_TakeAssesment -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Canvas 1] -->

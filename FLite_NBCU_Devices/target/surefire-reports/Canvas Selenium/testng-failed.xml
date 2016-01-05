@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Canvas Selenium]">
+  <listeners>
+    <listener class-name="com.mop.qa.test.bvt.TestSuite"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.mop.qa.test.bvt.CanvasTest_file">
+        <methods>
+          <include name="setUp"/>
+          <include name="startTestReport"/>
+          <include name="finishExecution"/>
+          <include name="teardown"/>
+          <include name="testNBC"/>
+          <include name="executeSuite"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.bvt.CanvasTest_file -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Canvas Selenium] -->
